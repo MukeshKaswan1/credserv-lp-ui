@@ -3,6 +3,45 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  /* Brand palette */
+  --brand-50: #f0f9f4;
+  --brand-100: #dcf2e6;
+  --brand-200: #b7e5cd;
+  --brand-300: #86d2ae;
+  --brand-400: #58c291;
+  --brand-500: #2eab73; /* primary */
+  --brand-600: #1f8d5e;
+  --brand-700: #166f4b;
+  --brand-800: #12583c;
+  --brand-900: #0f4732;
+
+  /* Support */
+  --accent: #1a7f64;
+  --muted: #f6f7f8;
+  --surface: #ffffff;
+  --border: #e6e7eb;
+  --success: #16a34a;
+  --warning: #f59e0b;
+  --danger: #ef4444;
+
+  /* Radii */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+
+  /* Shadows */
+  --shadow-xs: 0 1px 2px rgba(16, 24, 40, 0.06);
+  --shadow-sm: 0 1px 3px rgba(16, 24, 40, 0.08), 0 1px 2px rgba(16, 24, 40, 0.06);
+  --shadow-md: 0 4px 12px rgba(2, 8, 20, 0.08);
+
+  /* Typography scale */
+  --display: 64px;
+  --h1: 44px;
+  --h2: 32px;
+  --h3: 24px;
+  --h4: 20px;
+  --h5: 18px;
+  --h6: 16px;
 }
 
 @theme inline {
@@ -10,6 +49,17 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  /* Map brand to tailwind tokens */
+  --color-brand-50: var(--brand-50);
+  --color-brand-100: var(--brand-100);
+  --color-brand-200: var(--brand-200);
+  --color-brand-300: var(--brand-300);
+  --color-brand-400: var(--brand-400);
+  --color-brand-500: var(--brand-500);
+  --color-brand-600: var(--brand-600);
+  --color-brand-700: var(--brand-700);
+  --color-brand-800: var(--brand-800);
+  --color-brand-900: var(--brand-900);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -23,4 +73,12 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-responsive {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
