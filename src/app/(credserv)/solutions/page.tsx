@@ -101,7 +101,6 @@ const SolutionPage = () => {
   return (
     <Box
       pt={40}
-      pb={20}
       sx={{
         background: "linear-gradient(to bottom, #FFFFFF 0%, #F3F6FF 60%, #E8EEFF 100%)",
       }}

@@ -11,6 +11,8 @@ import {
   Stack,
   Typography,
 } from "@mui/material";
+import NextLink from "@/components/next-link";
+import { ROUTES } from "@/core/routes";
 
 const features = [
   {
@@ -159,6 +161,7 @@ const Capability = () => {
                   </Box>
 
                   <Box>
+                    <NextLink href={ROUTES.CREDSERV.solutions.path}>
                     <Button
                       variant="outlined"
                       sx={{
@@ -170,6 +173,7 @@ const Capability = () => {
                     >
                       Learn More
                     </Button>
+                    </NextLink>
                   </Box>
                 </Stack>
               </CardContent>

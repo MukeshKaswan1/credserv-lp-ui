@@ -11,13 +11,13 @@ const EmpoweringSection = () => {
   const benefits = [
     {
       icon: <TrendingUpOutlinedIcon sx={{ fontSize: 48, color: '#6366F1', bgcolor: '#DBEAFE', borderRadius: 2, p: 2 }} />,
-      title: 'xxx',
+      title: '4',
       description: 'Active Businesses',
       stat: '15+ data sources integrated',
     },
     {
       icon: <PeopleOutlinedIcon sx={{ fontSize: 48, color: '#10B981', bgcolor: '#DCFCE7', borderRadius: 2, p: 2 }} />,
-      title: 'xxx',
+      title: '10',
       description: 'Channel Partner Onboarded',
       stat: '70% faster credit decisions',
     },
@@ -30,7 +30,7 @@ const EmpoweringSection = () => {
           height={48}
         />
       ),
-      title: 'xxx',
+      title: '12000',
       description: 'Invoices Processed',
       stat: 'Reduces defaults by 35%',
     },

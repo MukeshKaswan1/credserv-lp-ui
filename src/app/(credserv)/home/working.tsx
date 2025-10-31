@@ -83,7 +83,7 @@ const ProcessStepCard = ({ step }: { step: (typeof processSteps)[0] }) => {
 
 const ProcessFlowSection = () => {
   return (
-    <Box className="py-16 md:py-24 bg-white">
+    <Box bgcolor="#FFFFFF" py={40}>
       <Box textAlign="center" mb={{ xs: 8, md: 12 }}>
         <Chip
           avatar={
